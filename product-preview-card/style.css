@@ -1,0 +1,45 @@
+.img-card {
+    display: flex;
+    
+    margin-left: auto;
+	margin-right: 50%;
+	margin-top: 10%;
+    border-radius: 10px;
+  
+    max-width: 350px;
+}
+.text-card {
+    border-radius: 10px;
+    background-color: #fff;
+     min-width: 300px;
+     text-align: left;
+}
+img {
+    max-width: 100%;
+}
+.perfume {
+    margin-left: 12%;
+}
+.name {
+    margin-left: 13%;
+}
+.bio {
+    margin-left: 13%;
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    margin-left: 13%;
+}
+.sale-price{
+
+}
+.price {
+    margin-left: 7%;
+}
+button {
+    margin-left: 13%;
+}
+html {
+    background-color: hsl(30, 38%, 92%);
+}
