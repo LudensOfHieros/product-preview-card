@@ -18,6 +18,7 @@ img {
     max-width: 100%;
 }
 .perfume {
+    font-family: "Montserrat";
     margin-left: 12%;
 }
 .name {
@@ -32,13 +33,30 @@ img {
     margin-left: 13%;
 }
 .sale-price{
-
+    font-size:30px;
+    font-weight: bold;
+    color: hsl(158, 36%, 37%);
 }
 .price {
     margin-left: 7%;
+    padding-top: 8%;
 }
 button {
     margin-left: 13%;
+    padding-right:25%;
+    padding-left:25%;
+    padding-top: 3%;
+    padding-bottom:3%;
+    border-radius: 7%;
+    font-size: 18px;
+    background-color: hsl(158, 36%, 37%);
+    color: #fff;
+}
+.image-button {
+    background-image: url(./images/icon-cart.svg);
+    background-repeat: no-repeat;
+    background-position: 22%, 10%;
+    
 }
 html {
     background-color: hsl(30, 38%, 92%);
